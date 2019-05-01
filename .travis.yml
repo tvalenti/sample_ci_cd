@@ -3,7 +3,7 @@ node_js:
   - '11.14'
 cache:
   directories:
-	- node_modules
+	  - node_modules
 script:
   - npm run coverage
   - npm run build
@@ -13,4 +13,4 @@ deploy:
   github_token: $github_token
   local_dir: build
   on:
-	branch: master
+	  branch: master
